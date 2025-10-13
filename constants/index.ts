@@ -38,14 +38,14 @@ export const Skill_data: Skill[] = [
     },
     {
       skill_name: "React Query",
-      Image: "/reactquery.png",
+      Image: "/reactquery.svg",
       width: 100,
       height: 100,
     },
 
     {
       skill_name: "C Language",
-      Image: "/clang.png",
+      Image: "/Clang.png",
       width: 100,
       height: 100,
     },
@@ -146,7 +146,7 @@ export const Skill_data: Skill[] = [
   export const Other_skill: Skill[] = [
       {
       skill_name: "Python",
-      Image: "/python.png",
+      Image: "/Python.png",
       width: 200,
       height: 200,
     },
