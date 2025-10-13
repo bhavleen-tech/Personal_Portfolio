@@ -9,9 +9,9 @@ const Experience = () => {
     <section className="relative flex flex-col items-center justify-center min-h-screen w-full bg-gradient-to-b from-black via-[#0a0a1a] to-[#030014] text-white overflow-hidden px-5" id="experience">
 
       <motion.h2
-        variants={slideInFromLeft}
+        variants={slideInFromLeft(0.5)}
         initial="hidden"
-        whileInView="visible"
+        animate="visible"
         viewport={{ once: true }}
         className="text-[42px] font-extrabold text-center mb-4 mt-16"
       >
@@ -21,7 +21,7 @@ const Experience = () => {
       </motion.h2>
 
       <motion.p
-        variants={slideInFromRight}
+        variants={slideInFromRight(0.5)}
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
@@ -31,7 +31,7 @@ const Experience = () => {
       </motion.p>
 
       <motion.div
-        variants={slideInFromLeft}
+        variants={slideInFromLeft(0.5)}
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
