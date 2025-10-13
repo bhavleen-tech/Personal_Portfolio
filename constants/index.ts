@@ -1,4 +1,11 @@
-export const Skill_data = [
+export interface Skill {
+  skill_name: string;
+  Image: string;
+  width: number;
+  height: number;
+}
+
+export const Skill_data: Skill[] = [
     {
       skill_name: "Html 5",
       Image: "/html.png",
@@ -8,7 +15,7 @@ export const Skill_data = [
     {
       skill_name: "Css",
       Image: "/css.png",
-      width: 100,  
+      width: 100,
       height: 100,
     },
     {
@@ -43,7 +50,7 @@ export const Skill_data = [
       height: 100,
     },
 
-  
+
   ];
   
   export const Socials = [
@@ -62,7 +69,7 @@ export const Skill_data = [
   
   
   
-  export const Frontend_skill = [
+  export const Frontend_skill: Skill[] = [
     {
       skill_name: "Next js 13",
       Image: "/next.png",
@@ -101,7 +108,7 @@ export const Skill_data = [
     },
   ];
   
-  export const Backend_skill = [
+  export const Backend_skill: Skill[] = [
     {
       skill_name: "My SQL",
       Image: "/mysql.png",
@@ -126,17 +133,17 @@ export const Skill_data = [
       width: 90,
       height: 90,
     },
-    
-  ];
-  
-  export const Full_stack = [
 
+  ];
   
+  export const Full_stack: Skill[] = [
+
+
   ];
   
   
   
-  export const Other_skill = [
+  export const Other_skill: Skill[] = [
       {
       skill_name: "Python",
       Image: "/python.png",
