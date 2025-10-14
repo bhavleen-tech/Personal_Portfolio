@@ -33,7 +33,7 @@ const Footer = () => {
             </div>
 
             <div className="mb-[20px] text-[15px] text-center">
-                &copy; Bhavleen Kaur All rights reserved
+                &copy; Bhavleen Kaur All rights reserved.
             </div>
         </div>
     </div>
