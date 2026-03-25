@@ -71,31 +71,6 @@ const Experience = () => {
         <div className="animate-ping absolute w-1.5 h-1.5 bg-purple-500 rounded-full top-[70%] left-[80%] opacity-70" />
         <div className="animate-pulse absolute w-1.5 h-1.5 bg-blue-500 rounded-full top-[40%] left-[50%] opacity-50" />
       </div>
-    </section>
-
-    <section className="relative flex flex-col items-center justify-center min-h-screen w-full bg-gradient-to-b from-black via-[#0a0a1a] to-[#030014] text-white overflow-hidden px-5" id="experience">
-
-      <motion.h2
-        variants={slideInFromLeft(0.5)}
-        initial="hidden"
-        animate="visible"
-        viewport={{ once: true }}
-        className="text-[42px] font-extrabold text-center mb-4 mt-16"
-      >
-        <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500">
-          Work Experience
-        </span>
-      </motion.h2>
-
-      <motion.p
-        variants={slideInFromRight(0.5)}
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true }}
-        className="text-gray-400 text-center mb-12"
-      >
-        What I have done so far in my professional journey 🚀
-      </motion.p>
 
       <motion.div
         variants={slideInFromLeft(0.5)}
@@ -112,22 +87,22 @@ const Experience = () => {
 
         <div className="flex flex-col md:ml-8 mt-5 md:mt-0 w-full">
           <h3 className="text-2xl font-bold text-white mb-1">
-            Front-end Development Intern
+            Full-Stack Development Intern
           </h3>
-          <p className="text-sm text-cyan-400 font-medium mb-3">THOMSON PRESS PVT LTD</p>
+          <p className="text-sm text-cyan-400 font-medium mb-3">Springer Capital</p>
           <ul className="list-disc list-inside text-gray-300 space-y-2 text-[15px] leading-relaxed">
             <li>
-              Contributed to the development and optimization of websites for various applications.
+              It was a hybrid internship, where I contributed to various fields related to backend, frontend, websites and many more.
             </li>
             <li>
-              Utilized HTML, CSS, JS and Bootstrap for Better User Interface.
+              Utilized HTML, CSS, JavaScript, Bootstrap, MongoDB, Express.js, React.js and Node.js for Better User Interface.
             </li>
           </ul>
 
 
           <p className="text-sm text-gray-400 mt-4">
             <span className="text-cyan-400 font-semibold">
-              June 2025 – July 2025
+              October 2025 - January 2026
             </span>
           </p>
         </div>
